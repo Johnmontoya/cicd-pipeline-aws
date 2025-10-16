@@ -8,10 +8,10 @@ phases:
       - echo Installing dependencies...
       - npm ci --legacy-peer-deps
 
-    build:
-      commands:
-        - echo Building the React app
-        - npm run build
+  build:
+    commands:
+      - echo Building the React app
+      - npm run build
 
 artifacts:
   files:
